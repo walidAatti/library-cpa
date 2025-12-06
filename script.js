@@ -42,7 +42,7 @@
             author: "Robert T. Kiyosaki",
             genre: "Self-Help",
             description: "A personal finance guide that contrasts the financial philosophies of the author's wealthy friend's father with his own father. Learn principles of investing, assets, and building wealth.",
-            image: "ebooks library/Rich Dad Poor Dad/cover.jpg",
+            image: "ebooks library/rich dad/cover.jpg",
             download_link: "https://lockedapp.org/cl/i/krlg9q"
         },
         {

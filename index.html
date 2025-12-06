@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- seo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BIIMOX - Your digital library. Discover and download classic books including fiction, mystery, horror, romance, and self-help. Free ebook library with instant access.">
+    <meta name="keywords" content="ebook library, free books, digital library, classic books, fiction, mystery, horror, romance, self-help, book downloads, BIIMOX">
+    <meta name="author" content="BIIMOX">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="BIIMOX - Your Digital Library">
+    <meta property="og:description" content="Access thousands of classic books instantly. Download, read, and explore endless stories.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo biim.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BIIMOX - Your Digital Library">
+    <meta name="twitter:description" content="Discover and download your next great read from our digital library.">
+    <title>BIIMOX - Your Digital Library | Free Classic Books & Ebooks</title>
+    <link rel="shortcut icon" href="logo biim.png" type="image/x-icon">
+    <link rel="canonical" href="https://biimox.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- dark mode -->
+    <script>
+    tailwind.config = {
+        darkMode: 'class'
+    }
+    </script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-white dark:bg-gray-950 text-black dark:text-white transition-colors duration-300">
+    <!-- Navigation -->
+    <nav class="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-40 border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#"><h1 class="text-2xl font-bold text-black dark:text-white" style="font-family: Caesar Dressing, system-ui;letter-spacing: 3px;">BIIMOX</h1></a>
+            <div class="flex items-center space-x-6">
+                <div class="hidden md:flex space-x-6">
+                    <a href="#features" class="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400">Features</a>
+                    <a href="#books" class="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400">Books</a>
+                    <a href="#footer" class="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400">About</a>
+                </div>
+                <!-- Dark Mode Toggle -->
+                <button onclick="toggleDarkMode()" class="p-2 rounded-xl bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
+                    <span id="themeIcon" class="text-xl">
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="bg-white dark:bg-gray-950 text-black dark:text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-5xl md:text-6xl font-bold mb-4 text-black dark:text-white">Discover Your Next Great Read</h2>
+            <p class="text-xl md:text-2xl mb-8 text-gray-700 dark:text-gray-300">Access your favorite books  instantly, download, read, and explore.</p>
+            <a href="#books" class="inline-block bg-black dark:bg-white text-white dark:text-black px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition">
+                <i class="fa-solid fa-book"></i> Explore Books 
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white dark:bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-4xl font-bold text-center mb-12 text-black dark:text-white">Why Choose BookHub?</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition border border-gray-300 dark:border-gray-600">
+                    <div class="text-4xl mb-4"><i class="fa-brands fa-readme"></i></div>
+                    <h4 class="text-xl font-semibold mb-2 text-black dark:text-white">Instant Access</h4>
+                    <p class="text-gray-700 dark:text-gray-300">Download books instantly and start reading right away.</p>
+                </div>
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition border  border-gray-300 dark:border-gray-600">
+                    <div class="text-4xl mb-4"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <h4 class="text-xl font-semibold mb-2 text-black dark:text-white">Easy Discovery</h4>
+                    <p class="text-gray-700 dark:text-gray-300">Search and filter by genre to find exactly what you need.</p>
+                </div>
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition border  border-gray-300 dark:border-gray-600">
+                    <div class="text-4xl mb-4"><i class="fa-solid fa-brain"></i></div>
+                    <h4 class="text-xl font-semibold mb-2 text-black dark:text-white">Knowledge in Minutes</h4>
+                    <p class="text-gray-700 dark:text-gray-300">Save time with compressed, easy-to-digest content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="py-16 bg-white dark:bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-4xl font-bold mb-8 text-black dark:text-white">Browse Our Collection</h3>
+
+            <!-- Search and Filter -->
+            <div class="mb-8 grid md:grid-cols-2 gap-4 top-24 z-30 bg-white dark:bg-gray-950 pb-4">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search by book title..." 
+                    class="px-4 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white placeholder-gray-600 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white"
+                >
+                <div class="relative">
+                    <select 
+                        id="genreFilter" 
+                        class="w-full px-4 py-3 rounded-lg border-2  border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white appearance-none cursor-pointer"
+                    >
+                        <option value="">All Genres</option>
+                        <option value="Fiction">Fiction</option>
+                        <option value="Mystery">Mystery</option>
+                        <option value="Science Fiction">Science Fiction</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Self-Help">Self-Help</option>
+                    </select>
+                    <svg class="absolute right-4 top-1/2 transform -translate-y-1/2 w-4 h-4 text-black dark:text-white pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- No Results Message -->
+            <div id="noResults" class="hidden text-center py-12">
+                <p class="text-xl text-gray-700 dark:text-gray-300 mb-2"><i class="fa-solid fa-book"></i>  No books found</p>
+                <p class="text-gray-600 dark:text-gray-400">Try adjusting your search or filter criteria</p>
+            </div>
+
+            <!-- Books Grid -->
+            <div id="booksGrid" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Books will be generated here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="bookModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white dark:bg-gray-900 rounded-lg shadow-xl max-w-2xl w-full max-h-screen overflow-y-auto border  border-gray-400 dark:border-gray-700">
+            <!-- Close Button -->
+            <div class="flex justify-between items-center p-6 border-b  border-gray-400 dark:border-gray-700">
+                <h2 id="modalTitle" class="text-2xl font-bold text-black dark:text-white"></h2>
+                <button onclick="closeModal()" class="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 text-2xl">
+                    ✕
+                </button>
+            </div>
+
+            <!-- Modal Content -->
+            <div class="p-6">
+                <img id="modalImage" src="" alt="Book cover" class="m-auto h-64 object-contain rounded-lg mb-6 border border-grey-300 dark:border-gray-700">
+                <div class="space-y-4">
+                    <div>
+                        <p class="text-sm text-gray-700 dark:text-gray-400">Author</p>
+                        <p id="modalAuthor" class="text-lg font-semibold text-black dark:text-white"></p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-700 dark:text-gray-400">Genre</p>
+                        <p id="modalGenre" class="text-lg font-semibold text-black dark:text-white"></p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-700 dark:text-gray-400">Description</p>
+                        <p id="modalDescription" class="text-gray-800 dark:text-gray-300 leading-relaxed"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="flex gap-4 p-6 border-t border-gray-400 dark:border-gray-700 bg-gray-100 dark:bg-gray-800">
+                <button onclick="closeModal()" class="flex-1 px-4 py-2 border-2 border-black dark:border-gray-600 rounded-lg text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 transition font-semibold">
+                    Close
+                </button>
+                <a id="downloadBtn" href="" class="flex-1 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:bg-gray-800 dark:hover:bg-gray-200 text-center transition font-semibold cursor-pointer">
+                    Download
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-black dark:bg-gray-950 text-white py-12 border-t-2 border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4"><i class="fa-solid fa-book"></i>  BIIMOX</h4>
+                    <p class="text-gray-400">Your gateway to your favorite books. Download, read, and explore endless stories.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#features" class="hover:text-white transition">Features</a></li>
+                        <li><a href="#books" class="hover:text-white transition">Browse Books</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">About Us</h4>
+                    <p class="text-gray-400 mb-4">BIIMOX is dedicated to making reading accessible to everyone. We provide a platform where book lovers can discover and download their favorite titles.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">Tiktok</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">Youtube</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 BIIMOX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
